@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        app:cardCornerRadius="2dip"
+        app:cardElevation="2dip">
+
+        <LinearLayout
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/copy_all"
+                android:fontFamily="@font/samim_medium"
+                style="@style/PopWindowTextStyle"
+                android:text="@string/option_copy_all" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/divider_color" />
+
+
+            <TextView
+                android:id="@+id/copy"
+                android:fontFamily="@font/samim_medium"
+                style="@style/PopWindowTextStyle"
+                android:text="@string/option_copy" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/divider_color" />
+
+
+            <TextView
+                android:id="@+id/copy_hashtags"
+                android:fontFamily="@font/samim_medium"
+                style="@style/PopWindowTextStyle"
+                android:text="@string/option_copy_tags" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/divider_color" />
+
+
+            <TextView
+                android:id="@+id/launch"
+                android:fontFamily="@font/samim_medium"
+                style="@style/PopWindowTextStyle"
+                android:text="@string/option_launch" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/divider_color" />
+            <TextView
+                android:id="@+id/redownload"
+                android:fontFamily="@font/samim_medium"
+                style="@style/PopWindowTextStyle"
+                android:text="@string/option_redownload" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

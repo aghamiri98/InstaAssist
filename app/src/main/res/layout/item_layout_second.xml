@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dip"
+    android:layout_marginLeft="10dip"
+    android:layout_marginRight="10dip"
+    app:cardCornerRadius="5dip"
+    app:cardElevation="@dimen/cardview_default_elevation">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dip">
+
+            <ImageView
+                android:id="@+id/thumbnail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="top"
+                android:background="@color/image_default_bg"
+                android:scaleType="centerCrop" />
+
+
+            <ImageView
+                android:id="@+id/play_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:scaleType="center"
+                android:src="@drawable/icon_video" />
+
+            <com.daimajia.numberprogressbar.NumberProgressBar
+                android:id="@+id/progressbar"
+                style="@style/NumberProgressBar_Warning_Red"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:visibility="gone"
+                app:progress_current="0"
+                app:progress_max="100"
+                app:progress_reached_bar_height="10dip"
+                app:progress_reached_color="@color/download_progress_reach_color"
+                app:progress_unreached_bar_height="10dip"
+                app:progress_unreached_color="@color/download_progress_unreach_color"
+                app:progress_text_color="@android:color/white"
+                app:progress_text_offset="1dp"
+                app:progress_text_size="16dip"
+                app:progress_text_visibility="visible" />
+
+            <TextView
+                android:id="@+id/download_task_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:background="#80000000"
+                android:textColor="@color/red_2"
+                android:textSize="15dip"
+                android:layout_marginLeft="10dip"
+                android:paddingLeft="5dip"
+                android:paddingRight="5dip"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="15dip"
+                />
+
+            <com.bcgdv.asia.lib.fanmenu.FanMenuButtons
+                android:id="@+id/myFABSubmenu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#CCFFFFFF"
+                android:paddingBottom="@dimen/fab_margin_2"
+                android:paddingLeft="@dimen/fab_margin"
+                android:paddingRight="@dimen/fab_margin"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:visibility="gone"
+                app:fanButtonColors="@array/button_colors"
+                app:fanMaxBounceBackAngle="50"
+                app:fanMenuLabels="@array/fan_labels"
+                app:fanMinBounceBackAngle="-30"
+                app:fanRememberMovedPosition="true" />
+
+            <ImageView
+                android:id="@+id/btn_operation"
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:layout_gravity="right|bottom"
+                android:layout_margin="@dimen/fab_margin"
+                android:background="@drawable/float_action_btn"
+                android:padding="10dip"
+                android:src="@drawable/ic_file_download_black_48dp" />
+
+            <ImageView
+                android:id="@+id/more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|top"
+                android:layout_marginRight="5dip"
+                android:layout_marginTop="5dip"
+                android:padding="10dip"
+                android:src="@drawable/ic_more_vert_white_24dp" />
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif"
+            android:gravity="left|center_vertical"
+            android:padding="15dip"
+            android:textColor="@android:color/black" />
+
+         <TextView
+             android:id="@+id/hash_tag"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:fontFamily="sans-serif-medium"
+             android:textSize="16dip"
+             android:layout_gravity="right"
+             android:padding="10dip"
+             android:gravity="bottom|center_vertical"
+             android:singleLine="true"
+             android:textColor="@color/black"
+             />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

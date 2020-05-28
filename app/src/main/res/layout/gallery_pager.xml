@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@android:color/black"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    >
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </androidx.viewpager.widget.ViewPager>
+
+    <TextView
+        android:id="@+id/count_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textSize="16dip"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="5dip"
+        android:layout_gravity="bottom|center_horizontal"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_keyboard_arrow_left_white_36dp"
+        android:scaleType="center"
+        android:id="@+id/back"
+        android:layout_gravity="left|top"
+        android:paddingTop="15dip"
+        android:paddingLeft="10dip"
+        />
+    <ImageView
+        android:id="@+id/more_vert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="center"
+        android:layout_gravity="top|right"
+        android:padding="15dip"
+        android:src="@drawable/ic_more_vert_white_24dp"
+        />
+</FrameLayout>

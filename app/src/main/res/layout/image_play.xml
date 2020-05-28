@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    android:orientation="vertical">
+
+
+    <com.app.instaassist.ui.views.PinchImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:scaleType="center" />
+
+    <ImageView
+        android:id="@+id/more_vert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="center"
+        android:layout_gravity="top|right"
+        android:padding="15dip"
+        android:src="@drawable/ic_more_vert_white_24dp"
+        />
+</FrameLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dip"
+    android:layout_marginLeft="10dip"
+    android:layout_marginRight="10dip"
+    android:layout_marginTop="10dip"
+    app:cardCornerRadius="20dip"
+    app:cardElevation="@dimen/cardview_default_elevation">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/float_action_btn"
+        android:orientation="vertical">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/input_url"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/input_url"
+            android:textColorHint="@color/download_progress_unreach_color"
+            android:textCursorDrawable="@drawable/text_cursor"
+            android:textSize="12dip"
+            android:fontFamily="@font/samim_medium"
+            app:met_baseColor="@android:color/white"
+            app:met_primaryColor="@android:color/white"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:paddingLeft="2dip"
+            android:paddingRight="2dip"
+            android:singleLine="true"
+            android:layout_marginTop="16dp"
+            app:met_textColorHint="@color/download_progress_unreach_color" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dip"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_howto"
+                android:layout_width="100dip"
+                android:layout_height="40dip"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="5dip"
+                android:layout_weight="1"
+                android:fontFamily="@font/samim_medium"
+                android:background="#fff"
+                android:text="@string/how_to"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btn_download"
+                android:layout_width="100dp"
+                android:layout_height="40dip"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="5dip"
+                android:layout_weight="1"
+                android:fontFamily="@font/samim_medium"
+                android:background="#fff"
+                android:ellipsize="end"
+                android:paddingLeft="3dip"
+                android:paddingRight="3dip"
+                android:singleLine="true"
+                android:text="@string/download"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/home_directory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dip"
+            android:layout_marginTop="16dip"
+            android:fontFamily="@font/samim_medium"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:textSize="14sp" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

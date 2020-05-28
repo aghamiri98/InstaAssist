@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#EC3E6F</color>
+    <color name="colorPrimaryDark">#CC3761</color>
+    <color name="colorAccent">#F4F4F4</color>
+    <color name="colorCyan">#00BCD4</color>
+    <color name="page_bg">#F4F4F4</color>
+    <color name="divider_color">#DBDBDB</color>
+
+    <color name="rating_bar_color">#009688</color>
+    <color name="red_1">#C2185B</color>
+    <color name="red_2">#E91E63</color>
+    <color name="red_3">#F44336</color>
+    <color name="red_4">#FF5722</color>
+
+    <color name="FF4081">#FF4081</color>
+    <integer-array name="button_colors">
+        <item>@color/FF4081</item>
+        <item>@color/button_normal_color</item>
+        <item>@color/deep_orange_color</item>
+        <item>@color/deep_purple_500</item>
+    </integer-array>
+
+    
+    <color name="deep_orange_color">#FF3D00</color>
+    <color name="page_bg_color">#F4F4F4</color>
+    <color name="image_bg_color">#D8D8D8</color>
+
+    <color name="button_normal_color">#1E7FEF</color>
+    <color name="button_press_color">#6A9D3F</color>
+
+    <color name="toast_bg_color">#CFFF4081</color>
+
+    <color name="purple_500">#9C27B0</color>
+    <color name="deep_purple_500">#673AB7</color>
+    <color name="indigo_500">#3F51B5</color>
+    <color name="blue_500">#2196F3</color>
+    <color name="cyan_500">#00BCD4</color>
+    <color name="light_blue_500">#03A9F4</color>
+
+    <color name="black">#000000</color>
+    <color name="light_black">#070000</color>
+
+    <color name="instagram_left_color">#E45755</color>
+    <color name="instagram_right_color">#A8319F</color>
+    <color name="instagram_center_color">#D14B65</color>
+    <color name="download_progress_reach_color">@android:color/white</color>
+    <color name="download_progress_unreach_color">#FBFAFA</color>
+
+    <color name="image_default_bg">#424242</color>
+</resources>

@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name" translatable="false">دستیار اینستا</string>
+    <string name="btn_download_from_clipboard">چسپاندن</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="how_to">راهنما</string>
+    <string name="action_settings">تنظیمات</string>
+
+    <string name="tab_title_downloading">دانلود</string>
+    <string name="tab_title_history">تاریخچه دانلود</string>
+    <string name="existed_download" translatable="false">فایل از قبل وجود داشت</string>
+    <string name="option_delete">حذف</string>
+    <string name="option_launch">باز کردن اینستاگرام</string>
+    <string name="option_copy">کپی لینک</string>
+    <string name="option_share">اشتراک گذاری</string>
+    <string name="menu_download_video">دانلود</string>
+    <string name="menu_download_image">دانلود بندانگشتی</string>
+    <string name="menu_delete">حذف</string>
+    <string name="menu_pause">توقف</string>
+    <string-array name="fan_labels" >
+        <item>@string/menu_download_video</item>
+        <item>@string/menu_download_image</item>
+        <item>@string/menu_pause</item>
+        <item>@string/menu_delete</item>
+    </string-array>
+
+    <string name="download_home_lable">فایل ذخیره شد در: /%s</string>
+    <string name="repost">ارسال مجدد</string>
+    <string name="spider_request_error">دریافت ناموفق لینک دانلود!</string>
+
+    <string name="download_from_send_action">شروع دریافت لینک دانلود</string>
+    <string name="not_support_url">لطفا لینک صحیح را ارسال نمایید</string>
+
+
+    <string name="eheck_url_dialgo_title">منتظر بمانید.</string>
+    <string name="check_url">چک کردن لینک....</string>
+
+    <string name="str_share_this_video">اشتراک گذاری</string>
+
+    <string name="clipboard_copy_text">لینک در کلیپ بورد گپی شد</string>
+
+    <string name="download_result_success">دانلود موفق بود</string>
+    <string name="download_failed">دانلود ناموفق بود</string>
+    <string name="download_result_start">شروع دانلود</string>
+
+
+    <string name="how_to_1">1.اینستاگرام را باز نمایید</string>
+    <string name="how_to_2">2.دستیار اینستا را باز نمایید</string>
+    <string name="how_to_3">3.کلیک روی دکمه سمت راست</string>
+
+    <string name="nav_rate_us">نظر دادن به ما</string>
+    <string name="nav_send">ارسال</string>
+    <string name="nav_change_language">تغییر زبان</string>
+    <string name="file_count_format" translatable="false" formatted="false">%1d/%2d</string>
+
+    <string name="toast_downlaoded_video">قبلا دانلود شده است</string>
+    <string name="downloading_left_task_count">%d فایل سمت چپ</string>
+    <string name="option_copy_all">کپی همه</string>
+    <string name="option_copy_tags">کپی هشتگ</string>
+    <string name="btn_check_url">چک کردن آدرس</string>
+    <string name="option_redownload">دانلود دوباره</string>
+
+    <string name="input_url">لطفا آدرس را وارد نمایید</string>
+    <string name="request_new_feature">درخواست قابلیت جدید</string>
+    <string name="download">دانلود</string>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F4F4F4"
+        android:orientation="vertical">
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/downloading_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dip"
+            android:background="@color/cardview_shadow_end_color">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
