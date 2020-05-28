@@ -3,8 +3,8 @@
 InstaAssist is a assistant to download and Save instagram photos and videos from your instagram account or any public account
 
 ## How to Use :
-1-open instagram
-2-click on copy link
+* 1-open instagram
+* 2-click on copy link
 
 Features:
 --------
@@ -18,8 +18,9 @@ Features:
 دستیار اینستا دستیاری جهت دانلود و ذخیره تصاویر و ویدیوهای ایسنستاگرام از اکانت خود شما و یا اکانت های عمومی می باشد
 
 ## نحوه استفاده:
-1-نرم افزار اینستاگرام را باز نمایید
-2- بروی copy link کلیک نمایید
+*  1-نرم افزار اینستاگرام را باز نمایید
+* 2- بروی copy link کلیک نمایید
+
 
 
 
